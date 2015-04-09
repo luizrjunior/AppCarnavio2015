@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <link href="site-assets/site.css?v=4.0.7-1.0.4" rel="stylesheet" />
+        <link href="dist/photoswipe.css?v=4.0.7-1.0.4" rel="stylesheet" />
+        <link href="dist/default-skin/default-skin.css?v=4.0.7-1.0.4" rel="stylesheet" />
+
+
+        <script src="dist/photoswipe.min.js?v=4.0.7-1.0.4"></script>
+        <script src="dist/photoswipe-ui-default.min.js?v=4.0.7-1.0.4"></script>
+
+        <title>App Carnavio 2015</title>
+    </head>
+    <body>
+
+        <div class="section--head">
+
+            <h3><i class="fa fa-file-image-o"></i> Fotos Carnavio 2015</h3>
+
+            <div class="row">
+
+                <div id="demo-test-gallery" class="demo-gallery">
+
+                    <a href="img/photos/20150215_215833.jpg" data-size="640x480" data-med="img/photos/20150215_215833.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_215833.jpg" alt="" />
+                        <figure>Teatro I</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_220230.jpg" data-size="640x480" data-med="img/photos/20150215_220230.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_220230.jpg" alt="" />
+                        <figure>Teatro II</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_220247.jpg" data-size="640x480" data-med="img/photos/20150215_220247.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_220247.jpg" alt="" />
+                        <figure>Teatro III</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_222839.jpg" data-size="480x640" data-med="img/photos/20150215_222839.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_222839.jpg" alt="" />
+                        <figure>Que tal uma jogatina?</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_222816.jpg" data-size="640x480" data-med="img/photos/20150215_222816.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_222816.jpg" alt="" />
+                        <figure>Boliviano no Cassino (Sampaio Correa)</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_222634.jpg" data-size="640x480" data-med="img/photos/20150215_222634.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_222634.jpg" alt="" />
+                        <figure>Uma self depois do Teatro.</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_222753.jpg" data-size="640x480" data-med="img/photos/20150215_222753.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_222753.jpg" alt="" />
+                        <figure>Cassino</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_234108.jpg" data-size="640x480" data-med="img/photos/20150215_234108.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_234108.jpg" alt="" />
+                        <figure>Cabine II</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_234203.jpg" data-size="480x640" data-med="img/photos/20150215_234203.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_234203.jpg" alt="" />
+                        <figure>Cabine I</figure>
+                    </a>
+
+                    <a href="img/photos/20150215_234213.jpg" data-size="480x640" data-med="img/photos/20150215_234213.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150215_234213.jpg" alt="" />
+                        <figure>Cabine III</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_034444.jpg" data-size="640x480" data-med="img/photos/20150216_034444.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_034444.jpg" alt="" />
+                        <figure>Festa Tropical I</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_041237.jpg" data-size="640x480" data-med="img/photos/20150216_041237.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_041237.jpg" alt="" />
+                        <figure>Festa Tropical II</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_044501.jpg" data-size="640x480" data-med="img/photos/20150216_044501.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_044501.jpg" alt="" />
+                        <figure>Festa Tropical III</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_004621.jpg" data-size="480x640" data-med="img/photos/20150216_004621.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_004621.jpg" alt="" />
+                        <figure>A princesa I</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_004631.jpg" data-size="480x640" data-med="img/photos/20150216_004631.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_004631.jpg" alt="" />
+                        <figure>A princesa II</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_010435.jpg" data-size="480x640" data-med="img/photos/20150216_010435.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_010435.jpg" alt="" />
+                        <figure>A princesa III</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_055000.jpg" data-size="480x640" data-med="img/photos/20150216_055000.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_055000.jpg" alt="" />
+                        <figure>Novas amizades I</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_012019.jpg" data-size="480x640" data-med="img/photos/20150216_012019.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_012019.jpg" alt="" />
+                        <figure>A bela e a fera</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_063130.jpg" data-size="480x640" data-med="img/photos/20150216_063130.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_063130.jpg" alt="" />
+                        <figure>Amanheceu I</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_063135.jpg" data-size="480x640" data-med="img/photos/20150216_063135.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_063135.jpg" alt="" />
+                        <figure>Amanheceu II</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_063141.jpg" data-size="480x640" data-med="img/photos/20150216_063141.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_063141.jpg" alt="" />
+                        <figure>Amanheceu III</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_064915.jpg" data-size="480x640" data-med="img/photos/20150216_064915.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_064915.jpg" alt="" />
+                        <figure>Festa na Boate I</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_065509.jpg" data-size="480x640" data-med="img/photos/20150216_065509.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_065509.jpg" alt="" />
+                        <figure>Festa na Boate II</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_065810.jpg" data-size="480x640" data-med="img/photos/20150216_065810.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_065810.jpg" alt="" />
+                        <figure>Festa na Boate III</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_070901.jpg" data-size="480x640" data-med="img/photos/20150216_070901.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_070901.jpg" alt="" />
+                        <figure>Novas amizades II</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_065640.jpg" data-size="640x480" data-med="img/photos/20150216_065640.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_065640.jpg" alt="" />
+                        <figure>Festa na Boate IV</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_135324.jpg" data-size="640x480" data-med="img/photos/20150216_135324.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_135324.jpg" alt="" />
+                        <figure>Bom dia!!!</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_073831.jpg" data-size="480x640" data-med="img/photos/20150216_073831.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_073831.jpg" alt="" />
+                        <figure>Role no Navio I</figure>
+                    </a>
+
+                    <a href="img/photos/20150216_141732.jpg" data-size="480x640" data-med="img/photos/20150216_141732.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150216_141732.jpg" alt="" />
+                        <figure>Role no Navio II</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_174404.jpg" data-size="480x640" data-med="img/photos/20150217_174404.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_174404.jpg" alt="" />
+                        <figure>Salvador I</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_174420.jpg" data-size="480x640" data-med="img/photos/20150217_174420.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_174420.jpg" alt="" />
+                        <figure>Salvador II</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_183925.jpg" data-size="480x640" data-med="img/photos/20150217_183925.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_183925.jpg" alt="" />
+                        <figure>Salvador III</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_183945.jpg" data-size="480x640" data-med="img/photos/20150217_183945.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_183945.jpg" alt="" />
+                        <figure>Salvador IV</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_184013.jpg" data-size="480x640" data-med="img/photos/20150217_184013.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_184013.jpg" alt="" />
+                        <figure>Salvador V</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_184619.jpg" data-size="480x640" data-med="img/photos/20150217_184619.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_184619.jpg" alt="" />
+                        <figure>Salvador VI</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_184628.jpg" data-size="480x640" data-med="img/photos/20150217_184628.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_184628.jpg" alt="" />
+                        <figure>Salvador VII</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_195010.jpg" data-size="480x640" data-med="img/photos/20150217_195010.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_195010.jpg" alt="" />
+                        <figure>Salvador VIII</figure>
+                    </a>
+
+                    <a href="img/photos/20150217_190940.jpg" data-size="480x640" data-med="img/photos/20150217_190940.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150217_190940.jpg" alt="" />
+                        <figure>Salvador IX</figure>
+                    </a>
+
+                    <a href="img/photos/20150218_161744.jpg" data-size="640x480" data-med="img/photos/20150218_161744.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150218_161744.jpg" alt="" />
+                        <figure>Tchau Bahia! I</figure>
+                    </a>
+
+                    <a href="img/photos/20150218_180455.jpg" data-size="640x480" data-med="img/photos/20150218_180455.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150218_180455.jpg" alt="" />
+                        <figure>Tchau Bahia! II</figure>
+                    </a>
+
+                    <a href="img/photos/20150219_210542.jpg" data-size="640x480" data-med="img/photos/20150219_210542.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150219_210542.jpg" alt="" />
+                        <figure>Mais Teatro!</figure>
+                    </a>
+
+                    <a href="img/photos/20150219_230102.jpg" data-size="640x480" data-med="img/photos/20150219_230102.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150219_230102.jpg" alt="" />
+                        <figure>Festa Fantasia I</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_025314.jpg" data-size="640x480" data-med="img/photos/20150220_025314.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_025314.jpg" alt="" />
+                        <figure>Festa Fantasia I</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_040939.jpg" data-size="640x480" data-med="img/photos/20150220_040939.jpg" data-med-size="1024x683" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_040939.jpg" alt="" />
+                        <figure>Festa Fantasia I</figure>
+                    </a>
+
+                    <a href="img/photos/20150219_230338.jpg" data-size="480x640" data-med="img/photos/20150219_230338.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150219_230338.jpg" alt="" />
+                        <figure>Festa Fantasia II</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_021022.jpg" data-size="480x640" data-med="img/photos/20150220_021022.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_021022.jpg" alt="" />
+                        <figure>Festa Fantasia III</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_024426.jpg" data-size="480x640" data-med="img/photos/20150220_024426.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_024426.jpg" alt="" />
+                        <figure>Pedrita linda!!!</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_024557.jpg" data-size="480x640" data-med="img/photos/20150220_024557.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_024557.jpg" alt="" />
+                        <figure>Brother da Pré-História #sqn</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_024850.jpg" data-size="480x640" data-med="img/photos/20150220_024850.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_024850.jpg" alt="" />
+                        <figure>Pedrita linda!!! De novo</figure>
+                    </a>
+
+                    <a href="img/photos/20150220_032119.jpg" data-size="480x640" data-med="img/photos/20150220_032119.jpg" data-med-size="683x1024" data-author="Luiz Roberto">
+                        <img src="img/photos/20150220_032119.jpg" alt="" />
+                        <figure>Pedrita linda!!! De novo</figure>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="pswp__bg"></div>
+
+            <div class="pswp__scroll-wrap">
+
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+
+                <div class="pswp__ui pswp__ui--hidden">
+
+                    <div class="pswp__top-bar">
+
+                        <div class="pswp__counter"></div>
+
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                        <button class="pswp__button pswp__button--share" title="Compartilhar"></button>
+
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip">
+                            <!-- <a href="#" class="pswp__share--facebook"></a>
+                            <a href="#" class="pswp__share--twitter"></a>
+                            <a href="#" class="pswp__share--pinterest"></a>
+                            <a href="#" download class="pswp__share--download"></a> -->
+                        </div>
+                    </div>
+
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <script type="text/javascript">
+            (function () {
+
+                var initPhotoSwipeFromDOM = function (gallerySelector) {
+
+                    var parseThumbnailElements = function (el) {
+                        var thumbElements = el.childNodes,
+                                numNodes = thumbElements.length,
+                                items = [],
+                                el,
+                                childElements,
+                                thumbnailEl,
+                                size,
+                                item;
+
+                        for (var i = 0; i < numNodes; i++) {
+                            el = thumbElements[i];
+
+                            // include only element nodes 
+                            if (el.nodeType !== 1) {
+                                continue;
+                            }
+
+                            childElements = el.children;
+
+                            size = el.getAttribute('data-size').split('x');
+
+                            // create slide object
+                            item = {
+                                src: el.getAttribute('href'),
+                                w: parseInt(size[0], 10),
+                                h: parseInt(size[1], 10),
+                                author: el.getAttribute('data-author')
+                            };
+
+                            item.el = el; // save link to element for getThumbBoundsFn
+
+                            if (childElements.length > 0) {
+                                item.msrc = childElements[0].getAttribute('src'); // thumbnail url
+                                if (childElements.length > 1) {
+                                    item.title = childElements[1].innerHTML; // caption (contents of figure)
+                                }
+                            }
+
+
+                            var mediumSrc = el.getAttribute('data-med');
+                            if (mediumSrc) {
+                                size = el.getAttribute('data-med-size').split('x');
+                                // "medium-sized" image
+                                item.m = {
+                                    src: mediumSrc,
+                                    w: parseInt(size[0], 10),
+                                    h: parseInt(size[1], 10)
+                                };
+                            }
+                            // original image
+                            item.o = {
+                                src: item.src,
+                                w: item.w,
+                                h: item.h
+                            };
+
+                            items.push(item);
+                        }
+
+                        return items;
+                    };
+
+                    // find nearest parent element
+                    var closest = function closest(el, fn) {
+                        return el && (fn(el) ? el : closest(el.parentNode, fn));
+                    };
+
+                    var onThumbnailsClick = function (e) {
+                        e = e || window.event;
+                        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+                        var eTarget = e.target || e.srcElement;
+
+                        var clickedListItem = closest(eTarget, function (el) {
+                            return el.tagName === 'A';
+                        });
+
+                        if (!clickedListItem) {
+                            return;
+                        }
+
+                        var clickedGallery = clickedListItem.parentNode;
+
+                        var childNodes = clickedListItem.parentNode.childNodes,
+                                numChildNodes = childNodes.length,
+                                nodeIndex = 0,
+                                index;
+
+                        for (var i = 0; i < numChildNodes; i++) {
+                            if (childNodes[i].nodeType !== 1) {
+                                continue;
+                            }
+
+                            if (childNodes[i] === clickedListItem) {
+                                index = nodeIndex;
+                                break;
+                            }
+                            nodeIndex++;
+                        }
+
+                        if (index >= 0) {
+                            openPhotoSwipe(index, clickedGallery);
+                        }
+                        return false;
+                    };
+
+                    var photoswipeParseHash = function () {
+                        var hash = window.location.hash.substring(1),
+                                params = {};
+
+                        if (hash.length < 5) { // pid=1
+                            return params;
+                        }
+
+                        var vars = hash.split('&');
+                        for (var i = 0; i < vars.length; i++) {
+                            if (!vars[i]) {
+                                continue;
+                            }
+                            var pair = vars[i].split('=');
+                            if (pair.length < 2) {
+                                continue;
+                            }
+                            params[pair[0]] = pair[1];
+                        }
+
+                        if (params.gid) {
+                            params.gid = parseInt(params.gid, 10);
+                        }
+
+                        if (!params.hasOwnProperty('pid')) {
+                            return params;
+                        }
+                        params.pid = parseInt(params.pid, 10);
+                        return params;
+                    };
+
+                    var openPhotoSwipe = function (index, galleryElement, disableAnimation) {
+                        var pswpElement = document.querySelectorAll('.pswp')[0],
+                                gallery,
+                                options,
+                                items;
+
+                        items = parseThumbnailElements(galleryElement);
+
+                        // define options (if needed)
+                        options = {
+                            index: index,
+                            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+                            getThumbBoundsFn: function (index) {
+                                // See Options->getThumbBoundsFn section of docs for more info
+                                var thumbnail = items[index].el.children[0],
+                                        pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                                        rect = thumbnail.getBoundingClientRect();
+
+                                return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
+                            },
+                            addCaptionHTMLFn: function (item, captionEl, isFake) {
+                                if (!item.title) {
+                                    captionEl.children[0].innerText = '';
+                                    return false;
+                                }
+                                captionEl.children[0].innerHTML = item.title + '<br/><small>Photo: ' + item.author + '</small>';
+                                return true;
+                            }
+
+                        };
+
+//                        options.mainClass = 'pswp--minimal--dark';
+//                        options.barsSize = {top: 0, bottom: 0};
+//                        options.captionEl = false;
+                        options.fullscreenEl = false;
+//                        options.shareEl = false;
+//                        options.bgOpacity = 0.85;
+//                        options.tapToClose = true;
+//                        options.tapToToggleControls = false;
+
+
+//                        var radios = document.getElementsByName('gallery-style');
+//                        for (var i = 0, length = radios.length; i < length; i++) {
+//                            if (radios[i].checked) {
+//                                if (radios[i].id == 'radio-all-controls') {
+//
+//                                } else if (radios[i].id == 'radio-minimal-black') {
+//                                    options.mainClass = 'pswp--minimal--dark';
+//                                    options.barsSize = {top: 0, bottom: 0};
+//                                    options.captionEl = false;
+//                                    options.fullscreenEl = false;
+//                                    options.shareEl = false;
+//                                    options.bgOpacity = 0.85;
+//                                    options.tapToClose = true;
+//                                    options.tapToToggleControls = false;
+//                                }
+//                                break;
+//                            }
+//                        }
+
+                        if (disableAnimation) {
+                            options.showAnimationDuration = 0;
+                        }
+
+                        // Pass data to PhotoSwipe and initialize it
+                        gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+
+                        // see: http://photoswipe.com/documentation/responsive-images.html
+                        var realViewportWidth,
+                                useLargeImages = false,
+                                firstResize = true,
+                                imageSrcWillChange;
+
+                        gallery.listen('beforeResize', function () {
+
+                            var dpiRatio = window.devicePixelRatio ? window.devicePixelRatio : 1;
+                            dpiRatio = Math.min(dpiRatio, 2.5);
+                            realViewportWidth = gallery.viewportSize.x * dpiRatio;
+
+
+                            if (realViewportWidth >= 1200 || (!gallery.likelyTouchDevice && realViewportWidth > 800) || screen.width > 1200) {
+                                if (!useLargeImages) {
+                                    useLargeImages = true;
+                                    imageSrcWillChange = true;
+                                }
+
+                            } else {
+                                if (useLargeImages) {
+                                    useLargeImages = false;
+                                    imageSrcWillChange = true;
+                                }
+                            }
+
+                            if (imageSrcWillChange && !firstResize) {
+                                gallery.invalidateCurrItems();
+                            }
+
+                            if (firstResize) {
+                                firstResize = false;
+                            }
+
+                            imageSrcWillChange = false;
+
+                        });
+
+                        gallery.listen('gettingData', function (index, item) {
+                            if (useLargeImages) {
+                                item.src = item.o.src;
+                                item.w = item.o.w;
+                                item.h = item.o.h;
+                            } else {
+                                item.src = item.m.src;
+                                item.w = item.m.w;
+                                item.h = item.m.h;
+                            }
+                        });
+
+                        gallery.init();
+                    };
+
+                    // select all gallery elements
+                    var galleryElements = document.querySelectorAll(gallerySelector);
+                    for (var i = 0, l = galleryElements.length; i < l; i++) {
+                        galleryElements[i].setAttribute('data-pswp-uid', i + 1);
+                        galleryElements[i].onclick = onThumbnailsClick;
+                    }
+
+                    // Parse URL and open gallery if it contains #&pid=3&gid=1
+                    var hashData = photoswipeParseHash();
+                    if (hashData.pid > 0 && hashData.gid > 0) {
+                        openPhotoSwipe(hashData.pid - 1, galleryElements[ hashData.gid - 1 ], true);
+                    }
+                };
+
+                initPhotoSwipeFromDOM('.demo-gallery');
+
+            })();
+
+        </script>        
+
+
+        <div data-role="page" id="testpage">
+
+            <div data-role="header">
+                <h1>Default theme</h1>
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-gear">Button</a>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn-active ui-state-persist">Menu item 1</a></li>
+                        <li><a href="#">Menu item 2</a></li>
+                        <li><a href="#">Menu item 3</a></li>
+                    </ul>
+                </div>
+            </div><!-- /header -->
+
+            <div class="ui-content" role="main">
+
+
+
+                <script type="text/javascript" src="cordova.js"></script>
+                <script type="text/javascript" src="js/index.js"></script>
+                <script type="text/javascript">
+                    app.initialize();
+                </script>
+
+
+
+
+
+
+                <form class="ui-mini">
+                    <div class="ui-field-contain" id="theme-selector">
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <legend>Theme:</legend>
+                            <label for="a">A</label>
+                            <input type="radio" name="theme" id="a" checked>
+                            <label for="b">B</label>
+                            <input type="radio" name="theme" id="b">
+                        </fieldset>
+                    </div>
+                    <div class="ui-field-contain" id="opt-navbars">
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <legend>Navbars:</legend>
+                            <label for="show">Show</label>
+                            <input type="radio" name="navbars" id="show" checked>
+                            <label for="hide">Hide</label>
+                            <input type="radio" name="navbars" id="hide">
+                        </fieldset>
+                    </div>
+                    <div class="ui-field-contain" id="opt-shadow">
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <legend>Shadow:<br><small>Off: set the widget option shadow to false (data-shadow="false")</small></legend>
+                            <label for="on">On</label>
+                            <input type="radio" name="shadow" id="on" checked>
+                            <label for="off">Off</label>
+                            <input type="radio" name="shadow" id="off">
+                        </fieldset>
+                    </div>
+                </form>
+
+                <div id="ui-body-test" class="ui-body ui-body-a ui-corner-all" style="margin-bottom:1em;">
+                    <p>I am a div with classes ui-body, ui-body-<span class="theme">a</span> and ui-corner-all.</p>
+                    <p><a href="#">I am a link</a></p>
+                    <h4>Panels</h4>
+                    <a href="#panel-reveal" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini">Reveal</a>
+                    <a href="#panel-overlay" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini">Overlay</a>
+                    <a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini">Push</a>
+                </div>
+
+                <div id="ui-bar-test" class="ui-bar ui-bar-a ui-corner-all" style="margin-bottom:1em;">
+                    <p>I am a div with classes ui-bar, ui-bar-<span class="theme">a</span> and ui-corner-all. <a href="#">I am a link</a></p>
+                </div>
+
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-carat-r ui-btn-icon-right">We</a>
+                <button class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-carat-r ui-btn-icon-right">are</button>
+                <input type="button" value="buttons" data-inline="true" data-icon="carat-r" data-iconpos="right">
+
+                <ul data-role="listview" data-inset="true">
+                    <li>I</li>
+                    <li data-role="list-divider">Divider<span class="ui-li-count">3</span></li>
+                    <li>am</li>
+                    <li>static<span class="ui-li-count">6</span></li>
+                </ul>
+
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#">We</a></li>
+                    <li data-role="list-divider">Divider</li>
+                    <li><a href="#">have<span class="ui-li-count">4</span></a></li>
+                    <li><a href="#">links</a></li>
+                </ul>
+
+                <ul data-role="listview" data-split-icon="gear" data-inset="true">
+                    <li><a href="#">
+                            <img src="../_assets/img/album-bb.jpg">
+                            <h2>Broken Bells</h2>
+                            <p>Broken Bells</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                    </li>
+                    <li><a href="#">
+                            <img src="../_assets/img/album-hc.jpg">
+                            <h2>Warning</h2>
+                            <p>Hot Chip</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                    </li>
+                    <li><a href="#">
+                            <img src="../_assets/img/album-bb.jpg">
+                            <h2>Wolfgang Amadeus Phoenix</h2>
+                            <p>Phoenix</p></a>
+                        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+                    </li>
+                </ul>
+
+                <form>
+                    <div class="ui-field-contain">
+                        <label for="name2">Text Input:</label>
+                        <input type="text" name="name2" id="name2" value="" data-clear-btn="true">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="textarea2">Textarea:</label>
+                        <textarea cols="40" rows="8" name="textarea2" id="textarea2"></textarea>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="flip2">Flip switch:</label>
+                        <select name="flip2" id="flip2" data-role="flipswitch">
+                            <option value="off">Off</option>
+                            <option value="on">On</option>
+                        </select>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="slider2">Slider:</label>
+                        <input type="range" name="slider2" id="slider2" value="0" min="0" max="100" data-highlight="true">
+                    </div>
+                    <div class="ui-field-contain">
+                        <fieldset data-role="controlgroup">
+                            <legend>Checkbox:</legend>
+                            <input type="checkbox" name="checkbox-v-1a" id="checkbox-v-1a">
+                            <label for="checkbox-v-1a">One</label>
+                            <input type="checkbox" name="checkbox-v-1b" id="checkbox-v-1b">
+                            <label for="checkbox-v-1b">Two</label>
+                            <input type="checkbox" name="checkbox-v-1c" id="checkbox-v-1c">
+                            <label for="checkbox-v-1c">Three</label>
+                        </fieldset>
+                    </div>
+                    <div class="ui-field-contain">
+                        <fieldset data-role="controlgroup">
+                            <legend>Radio:</legend>
+                            <input type="radio" name="radio-v-1" id="radio-v-1a" checked>
+                            <label for="radio-v-1a">One</label>
+                            <input type="radio" name="radio-v-1" id="radio-v-1b">
+                            <label for="radio-v-1b">Two</label>
+                            <input type="radio" name="radio-v-1" id="radio-v-1c">
+                            <label for="radio-v-1c">Three</label>
+                        </fieldset>
+                    </div>
+                    <div class="ui-field-contain">
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <legend>Controlgroup:</legend>
+                            <button class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right">One</button>
+                            <input type="button" data-icon="back" data-iconpos="right" value="Two">
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-right">Three</a>
+                        </fieldset>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="select-choice-1" class="select">Custom select:</label>
+                        <select name="select-choice-1" id="select-choice-1" data-native-menu="false" multiple="multiple">
+                            <option value="standard">Standard: 7 day</option>
+                            <option value="rush">Rush: 3 days</option>
+                            <option value="express">Express: next day</option>
+                            <option value="overnight">Overnight</option>
+                        </select>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="submit-1">Send form:</label>
+                        <input type="submit" id="submit-1" value="Send">
+                    </div>
+                </form>
+
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-gear ui-btn-icon-left ui-btn-active">Active button</a>
+
+                <p>Form inside static list:</p>
+
+                <form>
+                    <ul data-role="listview" data-inset="true">
+                        <li class="ui-field-contain">
+                            <label for="name3">Text Input:</label>
+                            <input type="text" name="name3" id="name3" value="" data-clear-btn="true">
+                        </li>
+                        <li class="ui-field-contain">
+                            <label for="flip3">Slider flip switch:</label>
+                            <select name="flip3" id="flip3" data-role="slider">
+                                <option value="off">Off</option>
+                                <option value="on">On</option>
+                            </select>
+                        </li>
+                        <li class="ui-field-contain">
+                            <label for="slider3">Slider:</label>
+                            <input type="range" name="slider3" id="slider3" value="0" min="0" max="100" data-highlight="true">
+                        </li>
+                    </ul>
+                </form>
+
+                <div id="ui-bar-form" class="ui-bar ui-bar-a">
+                    <p>ui-bar-<span class="theme">a</span></p>
+                    <div class="ui-field-contain">
+                        <label for="name4">Text Input:</label>
+                        <input type="text" name="name4" id="name4" value="" data-clear-btn="true">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="flip4">Flip switch:</label>
+                        <select name="flip4" id="flip4" data-role="slider">
+                            <option value="off">Off</option>
+                            <option value="on">On</option>
+                        </select>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="slider4">Slider:</label>
+                        <input type="range" name="slider4" id="slider4" value="0" min="0" max="100" data-highlight="true">
+                    </div>
+                </div>
+
+                <div data-role="collapsible" data-content-theme="a">
+                    <h4>Heading</h4>
+                    <p>I'm the collapsible content with a themed content block set to "<span class="theme">a</span>".</p>
+                </div>
+
+                <div data-role="collapsibleset" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>Section 1</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 2</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 3</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                    </div>
+                </div>
+
+            </div><!-- /content -->
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#">Menu item 1</a></li>
+                        <li><a href="#" class="ui-btn-active ui-state-persist">Menu item 2</a></li>
+                        <li><a href="#">Menu item 3</a></li>
+                    </ul>
+                </div>
+                <h4 style="display:none;">Footer</h4>
+            </div>
+
+            <div data-role="panel" id="panel-reveal">
+                <ul data-role="listview">
+                    <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li><a href="#">List item</a></li>
+                    <li><a href="#">List item</a></li>
+                    <li><a href="#">List item</a></li>
+                </ul>
+                <br><br>
+                <button class="ui-btn ui-corner-all ui-shadow">Button</button>
+            </div>
+
+            <div data-role="panel" id="panel-overlay" data-display="overlay">
+                <ul data-role="listview">
+                    <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li><a href="#">List item</a></li>
+                    <li><a href="#">List item</a></li>
+                    <li><a href="#">List item</a></li>
+                </ul>
+                <br><br>
+                <button class="ui-btn ui-corner-all ui-shadow">Button</button>
+            </div>
+
+            <div data-role="panel" id="panel-push" data-display="push">
+                <ul data-role="listview">
+                    <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li><a href="#">List item</a></li>
+                    <li><a href="#">List item</a></li>
+                    <li><a href="#">List item</a></li>
+                </ul>
+                <br><br>
+                <button class="ui-btn ui-corner-all ui-shadow">Button</button>
+            </div>
+
+        </div><!-- /page -->        
+
+    </body>
+</html>
