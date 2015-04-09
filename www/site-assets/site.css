@@ -453,11 +453,6 @@ p, ul.text-list {
 
 
 
-
-.section {
-  width: 100%;
-  margin-top: 176px;
-}
 .docs {
   margin-top: 60px;
 }
@@ -471,9 +466,8 @@ p, ul.text-list {
 
 .row {
   max-width: 800px;
-  margin: 24px auto;
-  padding: 0 30px;
-  position: relative;
+  margin: 25px auto;
+  padding: 0 50px;
 }
 
 .row--docs {
@@ -790,10 +784,7 @@ a.demo-gallery__img--main {
   .img-desc {
     margin-left: 0;
   }
-  .section {
-    margin-top: 132px;
-  }
-
+  
   .row--docs {
     max-width: 800px;
     padding-left: 30px;
@@ -802,7 +793,7 @@ a.demo-gallery__img--main {
   
   .section--head {
     margin-top:0;
-    padding: 30px 0;
+    padding: 10px 0;
   }
 
   .docs {
@@ -864,15 +855,8 @@ a.demo-gallery__img--main {
     padding-right: 18px;
     margin-left: -18px;
   }
-  .section {
-    margin-top: 88px;
-  }
   .docs {
     margin-top: 32px;
-  }
-  .section--head {
-    margin-top:0;
-    padding: 24px 0;
   }
   .row--nav {
     font-size: 18px;
