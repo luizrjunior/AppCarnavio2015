@@ -22,7 +22,7 @@
  */
 (function($) {
 	var pluginName = 'gmap';
-	var DATA_INITIAL_VIEW = "44.80,-93.16,5";
+	var DATA_INITIAL_VIEW = "-15.826716,-47.984901,17";
 
 	function parseLatLng(string) {
 		if (!string) string = DATA_INITIAL_VIEW;
@@ -126,8 +126,8 @@
 			});
 
 			// Feel free to make lat/lng dynamic
-			var lat="44.80";
-			var lon = "-93.16";
+			var lat="-15.828909";
+			var lon = "-47.983057";
 			if (lat && lon) {
 				var myLocation = new google.maps.LatLng(lat, lon);
 				new google.maps.Marker({ map:map, position:myLocation, icon:"http://labs.google.com/ridefinder/images/mm_20_green.png" });

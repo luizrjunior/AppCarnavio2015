@@ -48,6 +48,6 @@ var app = {
     }
 };
 
-function chamarAlbumPhotos(path) {
+function callPageHtml(path) {
     window.location = path;
 }

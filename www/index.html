@@ -79,12 +79,12 @@
             <div class="ui-content" role="main">
 
                 <ul data-role="listview" data-split-icon="gear" data-inset="true">
-                    <li><a href="#" onclick="chamarAlbumPhotos('photos_gallery.html');">
+                    <li><a href="#" onclick="callPageHtml('photos_gallery.html');">
                             <i class="fa fa-camera fa-2x"></i>
                             <h2>Álbum de Fotos</h2>
                             <p>Minhas fotos do Carnavio 2015</p></a>
                     </li>
-                    <li><a href="#">
+                    <li><a href="#" onclick="callPageHtml('videos_gallery.html');">
                             <i class="fa fa-video-camera fa-2x"></i>
                             <h2>Galeria de Vídeos</h2>
                             <p>Meus videos do Carnavio 2015</p></a>
@@ -99,26 +99,88 @@
                 <h3>Wallpapers Carnavio 2015</h3>
 
                 <div id="owl-demo">
-
-                    <div class="item"><img src="img/HomeCarnavio01.jpg" alt="Carnavio 01"></div>
-                    <div class="item"><img src="img/HomeCarnavio02.jpg" alt="Carnavio 02"></div>
-                    <div class="item"><img src="img/HomeCarnavio03.jpg" alt="Carnavio 03"></div>
-                    <div class="item"><img src="img/HomeCarnavio04.jpg" alt="Carnavio 04"></div>
-                    <div class="item"><img src="img/HomeCarnavio06.jpg" alt="Carnavio 06"></div>
-                    <div class="item"><img src="img/HomeCarnavio08.jpg" alt="Carnavio 08"></div>
-                    <div class="item"><img src="img/HomeCarnavio07.jpg" alt="Carnavio 07"></div>
-                    <div class="item"><img src="img/HomeCarnavio05.jpg" alt="Carnavio 05"></div>
-
+                    <div class="item">
+                        <a href="#popup01" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio01.jpg" alt="Carnavio 01">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup02" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio02.jpg" alt="Carnavio 02">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup03" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio03.jpg" alt="Carnavio 03">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup04" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio04.jpg" alt="Carnavio 04">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup05" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio06.jpg" alt="Carnavio 05">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup06" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio08.jpg" alt="Carnavio 06">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup07" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio07.jpg" alt="Carnavio 07">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#popup08" data-rel="popup" data-position-to="window" data-transition="fade">
+                            <img src="img/HomeCarnavio05.jpg" alt="Carnavio 08">
+                        </a>
+                    </div>
                 </div>
-
+                
+                <div data-role="popup" id="popup01" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio01.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup02" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio02.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup03" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio03.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup04" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio04.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup05" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio06.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup06" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio08.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup07" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio07.jpg" style="max-height:512px;">
+                </div>
+                
+                <div data-role="popup" id="popup08" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/HomeCarnavio05.jpg" style="max-height:512px;">
+                </div>
+                
             </div><!-- /content -->
 
             <div data-role="footer" data-position="fixed">
                 <div data-role="navbar">
                     <ul>
                         <li><a href="#" class="ui-btn-active ui-state-persist"><i class="fa fa-home"></i><br />Home</a></li>
-                        <li><a href="#" onclick="chamarAlbumPhotos('itinerary.html');"><i class="fa fa-map-marker"></i><br />Itinerário</a></li>
-                        <li><a href="#" onclick="chamarAlbumPhotos('information.html');"><i class="fa fa-info"></i><br />Informações</a></li>
+                        <li><a href="#" onclick="callPageHtml('itineraryNew.html');"><i class="fa fa-map-marker"></i><br />Itinerário</a></li>
+                        <li><a href="#" onclick="callPageHtml('information.html');"><i class="fa fa-info"></i><br />Informações</a></li>
                     </ul>
                 </div>
             </div>
