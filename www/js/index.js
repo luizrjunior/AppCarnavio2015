@@ -49,5 +49,6 @@ var app = {
 };
 
 function callPageHtml(path) {
-    window.location = path;
+    navigator.app.loadUrl(path);
+//    window.location = path;
 }
